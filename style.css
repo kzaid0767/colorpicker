@@ -1,0 +1,10 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 40rem;
+    margin: 2rem auto;
+    border: 2px rgb(12, 105, 211) solid;
+}
