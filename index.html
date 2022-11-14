@@ -5,14 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/jpg" sizes="32x32" href="/metwimba.jpg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=League+Spartan:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <title>Color Picker | App</title>
 </head>
 <body>
     <div class="container">
-        <form id="input-form" class="top-section">
-            <input type="color" name="color-pick" id="color-pick">
-            <select name="scheme-select" id="scheme-select">
+        <form id="input-form" class="form">
+            <input class="form-elements" type="color" name="color-pick" id="color-pick">
+            <select class="form-elements" name="scheme-select" id="scheme-select">
                 <option value="monochrome">monochrome</option>
                 <option value="monochrome-dark">monochrome-dark</option>
                 <option value="monochrome-light">monochrome-light</option>
@@ -22,7 +25,7 @@
                 <option value="triad">triad</option>
                 <option value="quad">quad</option>
             </select>
-            <button id="btn">Get Color Scheme</button>
+            <button class="form-elements" id="btn">Get Color Scheme</button>
         </form>
         <div id ="output" class="output">
     

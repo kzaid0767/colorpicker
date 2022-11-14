@@ -1,22 +1,80 @@
 html, body {
     margin: 0;
     padding: 0;
+    background: #E5E5E5;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
 }
 
 .container{
-    width: 24rem;
+    width: 35rem;
+    height: 40rem;
     margin: 2rem auto;
-    border: 2px rgb(12, 105, 211) solid;
+    /* border: 1px rgb(231, 11, 11) solid; */
+    background: #FFFDFE;
+}
+form{
+    width: 34rem;
+    height: 5.625;
+    display: flex;
+    justify-content: space-around;
+    padding: 0.5rem;
+}
+
+.form-elements{
+    height: 2.625rem;
+    border: 1px solid #D1D5DB;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 4px;
+}
+
+input{
+    width: 3.8125rem;
+}
+
+button{
+    width: 7.6875rem;
+    background: #FFFFFF;
+    border: 1px solid #D1D5DB;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 4px;
+}
+
+button:hover,
+select:hover,
+input:hover {
+    cursor: pointer;
+}
+
+select{
+    width: 19.5rem;
+    background: #FFFFFF;
+    border: 1px solid #D1D5DB;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 4px;
+}
+
+select:focus{
+    font-weight: 700;
 }
 
 .output{
     display: flex;
     flex-direction: row;
-    width: 24rem;
+    margin: 0 auto;
+    width: 34rem;
     height: 10rem;
 }
 
 .eachColor{
-    width: 100%;
-    height: 9rem;
+    width: 5.7rem;
+    height: 33rem;
+}
+
+.color-name{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 5.7rem;
+  height: 2.875rem;
 }

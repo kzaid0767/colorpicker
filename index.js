@@ -9,7 +9,10 @@ function rendeColorDivs(arr){
     
     for (color of arr){
         html += `
-        <div><div class="eachColor" style="background-color: ${color};"></div><div>${color}</div></div>`
+        <div>
+            <div class="eachColor" style="background-color: ${color};"></div>
+            <div class="color-name">${color}</div>
+        </div>`
     }
     
     outputDiv.innerHTML = html
