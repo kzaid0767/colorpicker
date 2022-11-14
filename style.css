@@ -4,7 +4,19 @@ html, body {
 }
 
 .container{
-    width: 40rem;
+    width: 24rem;
     margin: 2rem auto;
     border: 2px rgb(12, 105, 211) solid;
+}
+
+.output{
+    display: flex;
+    flex-direction: row;
+    width: 24rem;
+    height: 10rem;
+}
+
+.eachColor{
+    width: 100%;
+    height: 9rem;
 }
